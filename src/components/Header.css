@@ -1,5 +1,5 @@
 .header {
-    height: 8vh;
+    height: 8rem;
     background-color: black;
     display: flex;
     align-items: center;
@@ -16,4 +16,7 @@
     padding: 10px;
     border-radius: 10px;
     font-size: 2rem;
+}
+.header input:focus {
+    outline: none;
 }
