@@ -1,3 +1,7 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
 .movieList {
   display: flex;
   flex-wrap: wrap;

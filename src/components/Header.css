@@ -1,0 +1,19 @@
+.header {
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1vw;
+}
+
+.header span {
+    font-size: 3rem;
+}
+
+.header input {
+    width: 35vw;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 2rem;
+}

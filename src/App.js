@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Header from './components/Header';
 import './App.css';
 
 export const App = () => {
@@ -73,7 +74,8 @@ export const App = () => {
     "Poster": "https://m.media-amazon.com/images/M/MV5BYWM4ZDc3ZDItYjRlNC00MDE5LWIwNDctNTExZWYwNTFiNDZkXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_SX300.jpg"
   }])
   return (
-    <div>
+    <div className='app'>
+      <Header />
       <div className='movieList'>
         {
           movies.map((movie, index) =>
