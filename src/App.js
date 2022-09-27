@@ -10,7 +10,7 @@ export const App = () => {
   const [movieDisplayed, setMovieDisplayed] = useState(null)
 
   const getMovies = async () => {
-    const url = `http://www.omdbapi.com/?s=${searchValue}&type=movie&apikey=69a58fca`
+    const url = `http://www.omdbapi.com/?s=${searchValue}&type=movie&apikey=${process.env.REACT_APP_API_KEY}`
     const response = await fetch(url);
     const data = await response.json();
 
