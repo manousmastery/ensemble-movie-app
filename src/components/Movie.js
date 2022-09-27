@@ -3,11 +3,11 @@ import './Movie.css';
 
 const Movie = ({ movie, setMovieDisplayed }) => {
     const displayMovieInfo = (movie) => {
-        setMovieDisplayed(movie)
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        })
+        // setMovieDisplayed(movie)
+        // window.scrollTo({
+        //     top: 0,
+        //     behavior: "smooth"
+        // })
     }
     return (
         <div className='movie'>
