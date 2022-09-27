@@ -30,32 +30,3 @@
       grid-template-columns: auto;
     }
 }
-
-.movie>* {
-  display: block;
-}
-
-.movie {
-  width: 280px;
-  height: auto;
-}
-
-.movie:hover {
-  transform: scale(1.05);
-}
-.movie img {
-  object-fit: fill;
-    width: 100%;
-    height: 420px;
-}
-
-.movie .title {
-  padding: 5px 0;
-  font-weight: 600;
-  font-size: 2rem;
-}
-
-.movie .year {
-  font-size: 1.6rem;
-  color: rgba(255, 255, 255, 0.657);
-}
